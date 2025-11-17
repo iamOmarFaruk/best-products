@@ -128,6 +128,19 @@
             background-color: #5a6268;
         }
 
+        form button.btn,
+        form .btn {
+            padding: 10px 20px;
+            min-width: 85px;
+            height: auto;
+            line-height: 1.5;
+            vertical-align: middle;
+        }
+
+        .action-buttons form {
+            margin: 0;
+        }
+
         .card {
             background-color: white;
             border-radius: 8px;
@@ -191,6 +204,11 @@
         .action-buttons {
             display: flex;
             gap: 10px;
+            align-items: center;
+        }
+        
+        .action-buttons .btn {
+            flex: 0 0 auto;
         }
 
         .pagination {
