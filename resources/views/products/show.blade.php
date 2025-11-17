@@ -60,10 +60,10 @@
 
             <div class="action-buttons">
                 <a href="{{ route('products.edit', $product->id) }}" class="btn btn-success">Edit Product</a>
-                <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display: inline;">
+                <form action="{{ route('products.destroy', $product->id) }}" method="POST" style="display: inline;" onsubmit="confirmDelete(event)">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this product?')">Delete Product</button>
+                    <button type="submit" class="btn btn-danger">Delete Product</button>
                 </form>
             </div>
         </div>
