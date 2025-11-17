@@ -197,7 +197,8 @@ DELETE /products/{id}         # Delete product
 **Omar Faruk**
 
 - GitHub: [@iamOmarFaruk](https://github.com/iamOmarFaruk)
-- Portfolio: [Coming Soon]
+- Portfolio: [omarfaruk.dev](https://omarfaruk.dev/)
+- LinkedIn: [omar-expert-webdeveloper](https://www.linkedin.com/in/omar-expert-webdeveloper/)
 
 ## 📝 License
 
